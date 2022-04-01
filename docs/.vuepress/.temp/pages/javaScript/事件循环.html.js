@@ -45,8 +45,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1648720637000
   },
   "filePathRelative": "javaScript/事件循环.md"
 }

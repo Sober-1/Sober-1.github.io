@@ -7,8 +7,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1648720637000
   },
   "filePathRelative": "javaScript/防抖和节流.md"
 }

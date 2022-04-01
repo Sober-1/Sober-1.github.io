@@ -14,6 +14,19 @@ export const data = {
     },
     {
       "level": 2,
+      "title": "作用域",
+      "slug": "作用域",
+      "children": [
+        {
+          "level": 3,
+          "title": "全局作用域",
+          "slug": "全局作用域",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
       "title": "全局变量",
       "slug": "全局变量",
       "children": []
@@ -27,7 +40,7 @@ export const data = {
     {
       "level": 2,
       "title": "全局作用域",
-      "slug": "全局作用域",
+      "slug": "全局作用域-1",
       "children": []
     },
     {
@@ -50,8 +63,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1648720637000
   },
   "filePathRelative": "javaScript/变量和作用域.md"
 }

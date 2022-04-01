@@ -1,5 +1,5 @@
-import { defineUserConfig } from 'vuepress-webpack'
-import type { DefaultThemeOptions } from 'vuepress-webpack'
+import { defineUserConfig } from 'vuepress'
+import type { DefaultThemeOptions } from 'vuepress'
 import { navbar } from './navbarConfig'
 import { sidebar } from './sidebarConfig'
 
@@ -19,6 +19,9 @@ export default defineUserConfig<DefaultThemeOptions>({
     logoDark: '/images/study.png',
     repo: 'https://baidu.com',
     repoLabel: 'Gitee',
+    contributors: false,
+    contributorsText: '作者',
+    lastUpdatedText: '最近更新',
     navbar,
     sidebar,
     locales: {

@@ -3,6 +3,9 @@ export const themeData = {
   "logoDark": "/images/study.png",
   "repo": "https://baidu.com",
   "repoLabel": "Gitee",
+  "contributors": false,
+  "contributorsText": "作者",
+  "lastUpdatedText": "最近更新",
   "navbar": [
     {
       "text": "技术类型",
@@ -58,9 +61,6 @@ export const themeData = {
   "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdated": true,
-  "lastUpdatedText": "Last Updated",
-  "contributors": true,
-  "contributorsText": "Contributors",
   "notFound": [
     "There's nothing here.",
     "How did we get here?",

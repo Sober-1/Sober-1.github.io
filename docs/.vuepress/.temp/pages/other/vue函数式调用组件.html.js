@@ -14,8 +14,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1648720637000
   },
   "filePathRelative": "other/vue函数式调用组件.md"
 }

@@ -25,6 +25,11 @@ console<span class="token punctuation">.</span><span class="token function">log<
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="custom-container tip"><p class="custom-container-title">TIP</p>
 <p>通常我们的常量都会使用大写字母，多个字符可以用下划线（_）进行分割，但是在日常开发中，即使是 const 声明的常量，我们也经常会使用小写字母，只需保证该常量不会被以其它方式修改就可以</p>
 </div>
+<h2 id="作用域" tabindex="-1"><a class="header-anchor" href="#作用域" aria-hidden="true">#</a> 作用域</h2>
+<ul>
+<li>在了解<code>全局变量</code>以及<code>局部变量</code>之前，我们需要先了解什么是<code>全局作用域</code>以及<code>局部作用域</code></li>
+</ul>
+<h3 id="全局作用域" tabindex="-1"><a class="header-anchor" href="#全局作用域" aria-hidden="true">#</a> 全局作用域</h3>
 <h2 id="全局变量" tabindex="-1"><a class="header-anchor" href="#全局变量" aria-hidden="true">#</a> 全局变量</h2>
 <ul>
 <li><strong>最外层的函数</strong>以及<strong>在最外层函数外定义的变量</strong>,拥有<code>全局作用域</code>,可以称之为<strong>全局变量</strong>。</li>
@@ -62,7 +67,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token function">test1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 123  b is not defined</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>上述代码我们可知，当使用<strong>var</strong>关键字声明变量 b 的时候，<strong>变量 b 被定义在函数 test 的局部作用域中</strong>，只可在<strong>test 内部访问</strong>，外部无法访问，此时的变量 b 为<strong>局部变量</strong>。</p>
-<h2 id="全局作用域" tabindex="-1"><a class="header-anchor" href="#全局作用域" aria-hidden="true">#</a> 全局作用域</h2>
+<h2 id="全局作用域-1" tabindex="-1"><a class="header-anchor" href="#全局作用域-1" aria-hidden="true">#</a> 全局作用域</h2>
 <ul>
 <li>一个<code>js文件</code>或一个<code>script</code>标签之中的内容，都可以称之为<code>全局</code>，这一块区域之中定义的所有<code>变量或常量</code>，都处于<strong>全局作用域</strong>中，这个文件共享某个变量。</li>
 <li><code>全局作用域</code>在<strong>页面打开的时候创建</strong>，在<strong>页面关闭时销毁</strong>。</li>

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "one blog",
   "main": "index.js",
-  "repository": "https://gitee.com/Sober-1/blog.git",
+  "repository": "https://github.com/Sober-1/Sober-1.github.io.git",
   "author": "Sober",
   "license": "MIT",
   "scripts": {
@@ -11,6 +11,6 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress-webpack": "^2.0.0-beta.36"
+    "vuepress": "^2.0.0-beta.37"
   }
 }
